@@ -1,0 +1,24 @@
+{
+  "name": "liberator",
+  "version": "1.0.0",
+  "description": "Liberator from the command line",
+  "private": true,
+  "preferGlobal": true,
+  "bin": "index.js",
+  "author": {
+    "name": "Hack Reactor",
+    "email": "communication@hackreactor.com",
+    "url": "http://hackreactor.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hackreactor/liberator.git"
+  },
+  "dependencies": {
+    "commander": "~2.0.0",
+    "inquirer": "^0.5.1",
+    "lodash": "^2.4.1",
+    "shelljs": "^0.3.0",
+    "superagent": "^0.18.2"
+  }
+}
